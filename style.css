@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 11vh;
+    background-color: black;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.menu{
+    height: 11vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+p{
+    font-size: 26px;
+    color: gold;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: 26px;
+    color: white;
+}
+h2:hover{
+    color: gold;
+    font-size: 30px;
+}
+
+
+.principal{
+    height: 91vh;
+    width:100vw;
+    top: 11vh;
+    position: fixed;
+   background-image: url(./recursos/fondo3.jfif);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.contenido{
+    height: 100vh;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 41px;
+    gap: 20px;
+}
+.trailer-v{
+    width: 50vw;
+    height: 50vh;
+}
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+
+
+.personajes{
+    height: 66vh;
+    width: 100vw;
+    position: absolute;
+    top: -10000vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: black;
+    text-align: center;
+
+    
+}
+
+
+.episodios{
+    
+    position: absolute;
+    top: -10000vh;
+    background-color: black;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+    color: darkgray;
+    
+}
+
+
+.llamar{
+    position: absolute;
+    background-color: black;
+    height: 25vh;
+    width: 100vw;
+    top: -10000vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.capitulos{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px 10px 2px white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cap{
+    width: 200px;
+    height: 200px;
+}
+
+
+.temporada1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.temporada2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.temporada3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.temporada4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.temporada5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.temporada6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.nombre{
+    height: 30px;
+    
+    
+   
+}
+.correcto{
+    height: 30px;
+    width: 100px;
+    background-color: lime;
+    border-radius: 5px;
+    border: none;
+    
+}
+.imgp{
+    border-radius: 15px;
+}
+
+
+@media (max-width: 666px ) {
+   
+    nav{
+        flex-direction: column;
+        gap: 1px;
+        font-size: 10px;
+        height: 11vh;
+        top: 0;
+    }
+    .menu{
+        height: 3vh;
+    }
+   
+    .trailer-v{
+        width: 100vw;
+        height: 37vh;
+    }
+    
+    
+  }
+
+@media (max-width: 419px) {
+    .temporada1{
+        padding-top: 20px;
+    
+    }
+    .trailer-v{
+        margin-top: 100px;
+        width: 100vw;
+        height: 27vh;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
